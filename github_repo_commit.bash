@@ -18,3 +18,10 @@ git remote add origin https://github.com/carfirst125/github_repos.git
 git push -u origin main
 
 # Step 4: Continue to upload your code to Github
+git add .
+git commit -m "second commit"
+git branch -M main
+git push -u origin main
+
+# Step 4: clone from github
+git clone https://github.com/carfirst125/github_repos.git
