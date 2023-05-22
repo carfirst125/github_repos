@@ -5,7 +5,7 @@ git config --global user.email ngothanhnhan125@gmail.com
 
 # Step 2: create a repository in Github
 # create repository first
-curl -u 'carfirst125':'Nhan12#$' https://api.github.com/user/repos -d '{"name":"github_repos"}'
+curl -u 'carfirst125':'Nxxx1234' https://api.github.com/user/repos -d '{"name":"github_repos"}'
 
 # Step 3: upload your code in to Github
 # create github repository and commit code
