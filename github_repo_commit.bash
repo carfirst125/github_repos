@@ -1,3 +1,15 @@
+# Simple way to Git something
+# S1: clone the repository in git to you local machine
+git clone -b <branch_name> --single-branch <https path to your git locaiton>
+# S2: pull folder in repository to local machine (to be sure the current version in local machine is lastest one)
+git pull
+# S3: After changing your files, create more files and folders in you clone directory, this run add
+git add .
+# S4: Notice to git that you commit all adding files and folders to repository with commit message
+git commit -m "update code"
+# S5: actually action for committing code to github with particular branch name
+git push -u origin <branch_name>
+
 # Step 1: Say who you are
 # first, you must tell who you are
 git config --global user.name "carfirst125"
