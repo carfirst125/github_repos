@@ -1,3 +1,4 @@
+#################################################################################################################
 # Simple way to Git something
 # S1: clone the repository in git to you local machine
 git clone -b <branch_name> --single-branch <https path to your git locaiton>
@@ -10,6 +11,8 @@ git commit -m "update code"
 # S5: actually action for committing code to github with particular branch name
 git push -u origin <branch_name>
 
+################################################################################################################
+# A-Z from create repository to commit code to Github
 # Step 1: Say who you are
 # first, you must tell who you are
 git config --global user.name "carfirst125"
